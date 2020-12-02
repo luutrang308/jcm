@@ -22,3 +22,16 @@
   font-family: SVN-Poppinslight;
   src: url(./../fonts/SVN-Poppins-Light.ttf);
 }
+
+@font-face {
+  font-family: SVN-Kelson Sans;
+  src: url(./../fonts/SVN-Kelson-Sans-Regular.otf);
+}
+@font-face {
+  font-family: SVN-Kelsonlight;
+  src: url(./../fonts/SVN-Kelson-Sans-Light.otf);
+}
+@font-face {
+  font-family: SVN-Kelsonbold;
+  src: url(./../fonts/SVN-Kelson-Sans-Bold.otf);
+}
