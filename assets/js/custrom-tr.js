@@ -50,6 +50,7 @@ $(document).ready(function() {
     $('a[data-toggle="tab"]').on('shown.bs.tab', function(e) {
         $('.slider_parner').slick('setPosition');
     });
+    
     /* back to top */
     $(window).scroll(function() {
         if ($(this).scrollTop() > 500) {

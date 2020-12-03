@@ -35,3 +35,8 @@
   font-family: SVN-Kelsonbold;
   src: url(./../fonts/SVN-Kelson-Sans-Bold.otf);
 }
+
+@font-face {
+  font-family: MTD-Simpletune;
+  src: url(./../fonts/MTD-Simpletune.otf);
+}
