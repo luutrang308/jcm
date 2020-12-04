@@ -14,6 +14,20 @@ $(document).ready(function() {
         }
       ]
     });
+    $('.slider_news_page').slick({
+        dots: false,
+        slidesToShow: 1,
+        prevArrow: "<button class='prev slick-prev'><img class='left-arrow ' src='./assets/img/prev1.png' alt=''></button>",
+        nextArrow: "<button class='next slick-next'><img class='right-arrow ' src='./assets/img/next.png' alt=''></button>",
+        responsive: [
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 1,
+          }
+        }
+      ]
+    });
     $('.slider_parner_client').slick({
         dots: false,
         arrows: false,
