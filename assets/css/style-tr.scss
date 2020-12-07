@@ -3281,3 +3281,178 @@ a.btn_share {
 		left: 0;
 	}
 }
+.partner_tab_page {
+	margin-bottom: 20px;
+	.nav-tabs-title {
+		ul {
+			border-bottom: 1px solid #E5E5E5;
+			z-index: 1;
+			width: 100%;
+			height: auto;
+		}
+		li {
+			float: right;
+			padding: 0;
+			.nav-link {
+				color: #fff;
+				.title_inline_text_dark {
+					h2 {
+						span {
+							font-family: SVN-Kelson Sans;
+							font-style: normal;
+							font-weight: normal;
+							font-size: 18px;
+							line-height: 18px;
+							color: #3C3C3C;
+							&:before {
+								display: none;
+							}
+						}
+					}
+				}
+			}
+		}
+		.active {
+			float: left;
+			margin-right: auto;
+			.nav-link {
+				color: #fff;
+				background: transparent;
+				.title_inline_text_dark {
+					h2 {
+						margin: 0;
+						span {
+							font-family: SVN-Kelson Sans;
+							font-style: normal;
+							font-weight: normal;
+							font-size: 42px;
+							line-height: 42px;
+							color: #3C3C3C;
+							position: relative;
+							&:before {
+								display: block !important;
+								position: absolute;
+								content: '';
+								width: 170px;
+								height: 13px;
+								background: rgba(151, 70, 23, 0.3);
+								bottom: 5px;
+								left: 0;
+							}
+						}
+					}
+				}
+			}
+			a {
+				&:before {
+					display: none;
+				}
+			}
+		}
+	}
+	.content_page {
+		p {
+			font-family: Roboto;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 16px;
+			line-height: 135.19%;
+			color: #3C3C3C;
+		}
+	}
+}
+.section_partner_page {
+	padding: 5px 0 55px 0;
+	position: relative;
+}
+.doitac_logo {
+	width: 100%;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+	.img_logo {
+		width: 16.666666%;
+		overflow: hidden;
+		text-align: center;
+		align-items: center;
+		height: 100px;
+		position: relative;
+		img {
+			max-width: 100%;
+			position: absolute;top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+		}
+	}
+}
+.element_business_areas {
+	display: inline-block;
+	margin: 0 -15px;
+	.box_business {	
+		width: 33.33333333333%;
+		float: left;
+		padding: 15px;
+		.item {
+			overflow: hidden;
+			background: #fff;
+			padding: 35px 30px;
+			border: 1px solid #C4C4C4;
+			box-sizing: border-box;
+			margin: 15px 0;
+		}
+		.item_img {
+			overflow: inherit;
+			border: none;
+			img {
+			}
+		}
+		.title {
+			display: flex;
+			flex-flow: row wrap;
+			justify-content: space-between;
+			align-items: center;
+			p {
+				font-family: SVN-Kelson Sans;
+				font-style: normal;
+				font-weight: normal;
+				font-size: 42px;
+				line-height: 42px;
+				color: #3C3C3C;
+				span {
+					font-family: SVN-Kelson Sans;
+					font-style: normal;
+					font-weight: normal;
+					font-size: 16px;
+					line-height: 19px;
+					color: #3C3C3C;
+					display: block;
+				}
+			}
+			.img {
+				width: 75px;
+				height: 75px;
+				position: relative;
+				img {
+					max-width: 100%;
+					position: absolute;
+					top: 50%;
+					left: 50%;
+					transform: translate(-50%, -50%);
+				}
+				.img_hover {
+					opacity: 0;
+				}
+			}
+		}
+	}
+}
+.item_btn_dark {
+	text-align: left;
+	a {
+		color: #3C3C3C;
+		padding-left: 0;
+		&:before {
+			content: url(./../img/drak.png);
+		}
+	}
+}

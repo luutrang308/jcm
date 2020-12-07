@@ -3144,3 +3144,170 @@ a.btn_share:before {
   top: 0;
   left: 0;
 }
+
+.partner_tab_page {
+  margin-bottom: 20px;
+}
+.partner_tab_page .nav-tabs-title ul {
+  border-bottom: 1px solid #E5E5E5;
+  z-index: 1;
+  width: 100%;
+  height: auto;
+}
+.partner_tab_page .nav-tabs-title li {
+  float: right;
+  padding: 0;
+}
+.partner_tab_page .nav-tabs-title li .nav-link {
+  color: #fff;
+}
+.partner_tab_page .nav-tabs-title li .nav-link .title_inline_text_dark h2 span {
+  font-family: SVN-Kelson Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 18px;
+  color: #3C3C3C;
+}
+.partner_tab_page .nav-tabs-title li .nav-link .title_inline_text_dark h2 span:before {
+  display: none;
+}
+.partner_tab_page .nav-tabs-title .active {
+  float: left;
+  margin-right: auto;
+}
+.partner_tab_page .nav-tabs-title .active .nav-link {
+  color: #fff;
+  background: transparent;
+}
+.partner_tab_page .nav-tabs-title .active .nav-link .title_inline_text_dark h2 {
+  margin: 0;
+}
+.partner_tab_page .nav-tabs-title .active .nav-link .title_inline_text_dark h2 span {
+  font-family: SVN-Kelson Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 42px;
+  line-height: 42px;
+  color: #3C3C3C;
+  position: relative;
+}
+.partner_tab_page .nav-tabs-title .active .nav-link .title_inline_text_dark h2 span:before {
+  display: block !important;
+  position: absolute;
+  content: "";
+  width: 170px;
+  height: 13px;
+  background: rgba(151, 70, 23, 0.3);
+  bottom: 5px;
+  left: 0;
+}
+.partner_tab_page .nav-tabs-title .active a:before {
+  display: none;
+}
+.partner_tab_page .content_page p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 135.19%;
+  color: #3C3C3C;
+}
+
+.section_partner_page {
+  padding: 5px 0 55px 0;
+  position: relative;
+}
+
+.doitac_logo {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+}
+.doitac_logo .img_logo {
+  width: 16.666666%;
+  overflow: hidden;
+  text-align: center;
+  align-items: center;
+  height: 100px;
+  position: relative;
+}
+.doitac_logo .img_logo img {
+  max-width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.element_business_areas {
+  display: inline-block;
+  margin: 0 -15px;
+}
+.element_business_areas .box_business {
+  width: 33.3333333333%;
+  float: left;
+  padding: 15px;
+}
+.element_business_areas .box_business .item {
+  overflow: hidden;
+  background: #fff;
+  padding: 35px 30px;
+  border: 1px solid #C4C4C4;
+  box-sizing: border-box;
+  margin: 15px 0;
+}
+.element_business_areas .box_business .item_img {
+  overflow: inherit;
+  border: none;
+}
+.element_business_areas .box_business .title {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.element_business_areas .box_business .title p {
+  font-family: SVN-Kelson Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 42px;
+  line-height: 42px;
+  color: #3C3C3C;
+}
+.element_business_areas .box_business .title p span {
+  font-family: SVN-Kelson Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #3C3C3C;
+  display: block;
+}
+.element_business_areas .box_business .title .img {
+  width: 75px;
+  height: 75px;
+  position: relative;
+}
+.element_business_areas .box_business .title .img img {
+  max-width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.element_business_areas .box_business .title .img .img_hover {
+  opacity: 0;
+}
+
+.item_btn_dark {
+  text-align: left;
+}
+.item_btn_dark a {
+  color: #3C3C3C;
+  padding-left: 0;
+}
+.item_btn_dark a:before {
+  content: url(./../img/drak.png);
+}
